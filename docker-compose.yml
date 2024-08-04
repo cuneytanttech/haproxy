@@ -3,7 +3,9 @@ services:
   haproxy:
     image: cuneyta/haproxy:1.0
     ports:
+      - 15671:15671
       - 15672:15672
+      - 5671:5671
       - 5672:5672
       - 1936:1936
     networks:
