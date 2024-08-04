@@ -1,7 +1,7 @@
 version: "3.6"
 services:
   haproxy:
-    image: cuneyta/haproxy-for-rabbitmq:1.8.14-alpine
+    image: cuneyta/haproxy:1.0
     ports:
       - 15672:15672
       - 5672:5672
